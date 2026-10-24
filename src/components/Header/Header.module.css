@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  background: #fdfbf6;
+  border-bottom: 0;
+}
+
+.topBar {
+  height: 92px;
+  background: #d8eef8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  gap: 1.25rem;
+}
+
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo {
+  display: block;
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #6f2435;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.7rem 0.2rem;
+  border-radius: 999px;
+  transition: transform 0.18s ease, opacity 0.18s ease, background 0.18s ease;
+}
+
+.navLink:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+.activeLink {
+  background: #fffdf8;
+  padding: 0.72rem 1.2rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+}
+
+.activeFlower {
+  color: #9a9af8;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.contactButton {
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #fff;
+  background: #6b96d7;
+  border-radius: 999px;
+  padding: 0.85rem 1.3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 1.10rem;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.contactButton:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.patternStrip {
+  height: 70px;
+  background-repeat: repeat-x;
+  background-position: left center;
+  background-size: auto 70px;
+  background-color: #fffdf8;
+}
